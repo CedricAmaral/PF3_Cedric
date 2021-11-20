@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poupança</title>
+    <link rel="stylesheet" href="estilo.css">
+	<script type="text/javascript" src="script.js"></script>
+  </head>
+  <body>
+    <main>
+      <div class="section">
+
+        <div class="title"> Calculadora Poupança </div>
+
+
+        <div class="input">
+          <input id="entrada" placeholder="Valor que irá aplicar mensalmente?" type="number" required="required" >
+      </div>
+
+      <div class="input">
+          <input id="juros" placeholder="Quanto de juros?" type="number" required="required" >
+      </div>
+
+      <div class="input">
+          <input id="parcelas" placeholder="Número de parcelas mensais?" type="number" required="required" >
+      </div>
+	  <div>
+	  <button onclick="juros()">Calcular</button><br />
+	  </div>
+	    <div>
+	  Resultado: <div id="resultado"></div>
+	  </div>
+        <footer> Para você professor S2!</footer>  
+
+      </div>
+    </main>
+  </body>
+</html>
